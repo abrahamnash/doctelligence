@@ -36,6 +36,5 @@ fields:
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 pages:
-- content/posts/cross-device-vs.cross-silo-federated-learning.md
 - content/posts/sunflower-sutra.md
 - content/posts/what-are-centralized-healthcare-institutions.md
