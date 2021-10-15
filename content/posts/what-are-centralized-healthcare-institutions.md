@@ -1,7 +1,7 @@
 ---
 date: 2021-10-15T20:54:54Z
 hero_image: "/content/images/o.png"
-title: What are centralized healthcare institutions?
+title: What are Centralized Healthcare Institutions?
 author: Abraham Nash
 
 ---
