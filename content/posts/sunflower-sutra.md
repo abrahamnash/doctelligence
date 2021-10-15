@@ -1,42 +1,18 @@
 ---
 date: 2019-08-08T22:42:09.000+00:00
-title: Sunflower Sutra
+title: Accessing Personal Health Information (PHI)
 author: Allen Ginsberg
-hero_image: "/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
+hero_image: "/content/images/o.png"
 
 ---
-I walked on the banks of the tincan banana dock and sat down under the huge shade of a Southern Pacific locomotive to look for the sunset over the box house hills and cry.
+### Accessing Personal Health Information
 
-Jack Kerouac sat beside me on a busted rusty iron pole, companion, we thought the same thoughts of the soul, bleak and blue and sad-eyed, surrounded by the gnarled steel roots of trees of machinery.
+Accessing personal health information (PHI) is currently difficult for patients across many different countries, territories and regions owing to centralised identity architectures. The requesting of personal health information can take up to 60 days (HIPAA) in the USA ekblaw2016case}. Secondly, when access is readily granted then this is still done under the proviso that a centralized identity architecture be used. Patients are provided access to health information stored by the institutional provider with all the same identity requirements verification processes. However, this does not readily enhance access to PHI for patients seeking a variety of different provision types throughout their lifetimes. 
 
-![](/content/images/elcarito-CRn-_80z4SE-unsplash.jpg)
+ A patient can visit one provider where their PHI is recorded in one EHR, and, when the patient chooses (or must) visit another provider, they often find they cannot retrieve their PHI. As a result, lab test results, clinical documentation and previous hospital visits are not always communicated. This can lead to ineffective care, inefficient use of patient and physician time and resources, the duplication of treatment and tests, and at worst can cause harm to patients if there were important and undocumented components of their care to consider (e.g. previous treatments, allergies to medications) {nosh:new_open_source_health_charting_system_2017}. 5 to 10 million patients and 50,000 staff can rely on having access to a single EHR system or delivery network. As a result of this, privacy and security standards for consent, authorisation, single-sign-on, and accounting of disclosures, prove elusive {gropper2016powering}. Furthermore, practices utilising centralized identity architectures who are responsible for protecting PHI have found it difficult to meet the needs of health information exchange (HIE) networks to resolve this conflict of interest.   
 
-The only water on the river mirrored the red sky, sun sank on top of final Frisco peaks, no fish in that stream, no hermit in those mounts, just ourselves rheumy-eyed and hung-over like old bums on the riverbank, tired and wily.
+On a national scale, today's practices are insufficient to maintain the quality, security and privacy of PHI {gropper2016powering}. As an industry with an ever growing user base, health care has been challenged with ongoing medical errors that expose patients to serious risks of delayed and incorrect treatments. A key contributor is identification of patients primarily due to discrepancies in collected identifiers that frequently result in double-matched patients. Identities of patients are also inconsistent across different healthcare organizations as many are served by heterogeneous, centralised systems. This has also lead to a patient mismatching problem that endangers the quality of care leading to medical errors {zhangfeasibility}.
 
-Look at the Sunflower, he said, there was a dead gray shadow against the sky, big as a man, sitting dry on top of a pile of ancient sawdust–
+Patient identification has been an integral part to the delivery of safe and effective healthcare services. In the US today, patient identities are managed and resolved through proprietary systems such as the Master Patient Index (MPI) and Enterprise Patient Master Index (EPMI). These systems have implemented sophisticated algorithms to locate or match an existing patient with a set of identifying information obtained from the patient during each visit. However, inconsistencies in patient identifiers, errors in data entries, and similarities between patients in a large hospital database (e.g., identical or similar names, discrepant formats of date of birth, etc) complicate the identifications process and exacerbate patient mismatching, compromising the quality of care and also potentially contributing to incorrect fulfillment of medications. According to a previous study, ten out of 17 medical errors that contribute to approximately 195,000 deaths per year are related to incorrect identifications of patients.
 
-\--I rushed up enchanted–it was my first sunflower, memories of Blake–my visions–Harlem
-
-# “the gray Sunflower poised against the sunset, crackly bleak and dusty with the smut and smog and smoke of olden locomotives in its eye”
-
-and Hells of the Eastern rivers, bridges clanking Joes greasy Sandwiches, dead baby carriages, black treadless tires forgotten and unretreaded, the poem of the riverbank, condoms & pots, steel knives, nothing stainless, only the dank muck and the razor-sharp artifacts passing into the past–
-
-and the gray Sunflower poised against the sunset, crackly bleak and dusty with the smut and smog and smoke of olden locomotives in its eye–
-
-corolla of bleary spikes pushed down and broken like a battered crown, seeds fallen out of its face, soon-to-be-toothless mouth of sunny air, sunrays obliterated on its hairy head like a dried wire spiderweb,
-
-leaves stuck out like arms out of the stem, gestures from the sawdust root, broke pieces of plaster fallen out of the black twigs, a dead fly in its ear,
-
-Unholy battered old thing you were, my sunflower O my soul, I loved you then!
-
-![](/content/images/francesco-mazzoli-0xh3QPqcfKM-unsplash.jpg)
-
-The grime was no man’s grime but death and human locomotives,
-
-all that dress of dust, that veil of darkened railroad skin, that smog of cheek, that eyelid of black mis’ry, that sooty hand or phallus or protuberance of artificial worse-than-dirt–industrial–modern–all that civilization spotting your crazy golden crown–
-
-and those blear thoughts of death and dusty loveless eyes and ends and withered roots below, in the home-pile of sand and sawdust, rubber dollar bills, skin of machinery, the guts and innards of the weeping coughing car, the empty lonely tincans with their rusty tongues alack, what more could I name, the smoked ashes of some cock cigar, the cunts of wheelbarrows and the milky breasts of cars, wornout asses out of chairs & sphincters of dynamos–all these
-
-entangled in your mummied roots–and you standing before me in the sunset, all your glory in your form!
-
-A perfect beauty of a sunflower! a perfect excellent lovely sunflower existence! a sweet natural eye to the new hip moon, woke up alive and excited grasping in the sunset shadow sunrise golden monthly breeze!
+As described in {Accessinghealthcareservices} healthcare organizations usually assign their patients with unique patient identifiers, but those identifiers are often unrecognized by other organizations. As a patient moves from one care provider to another, their established profile from the previous provider cannot be easily transferred to the new provider, with each occurrence posing an increased change for error in patient databases such as the MPI. This further exposes the exact problems of centralized identity management and their negative impact in the long run. On the flip side, the patient identification mismatch problem presents an opportunity to consider blockhain-based DID solutions that naturally replace a service-centric model with a user-centric model. DIDs are modelled to build single, unique personal identity profiles that include a collection of verifiable and traceable issuance's of credentials. This model would free patients from having to answer repeated questions during their medical visits or request access to new patient portals when transitioning between various points of care. It would also alleviate providers' workload by expediting the identity verification  and decrease patient mismatch rate due to similar or inconsistent identifiers. Moreover, it can protect patient privacy by allowing them to regain ownership of their identity.
