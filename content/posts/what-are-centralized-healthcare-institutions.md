@@ -1,18 +1,8 @@
 ---
 date: 2021-10-15T20:54:54.000+00:00
 hero_image: "/content/images/o.png"
-title: A decomposition of the centralized healthcare institution
+title: A Decomposition of the Centralized Healthcare Institution
 author: Abraham Nash
 
 ---
-To address the motives surrounding data acquisition, we need to first understand the components which define a healthcare institution.
-
-Electronic health records (EHRs) have remained institutionally-centric up until now (i.e.\\ hospitals, healthcare clinics, primary care). Originally, physicians would use paper records and store these inside their practices. The recording of personal health information then shifted to electronic health records. Over time, the cost of hosting these records was agglomerated into larger practices, as this offset the costs of EHRs for physicians to practice as they are typically housed and maintained by the institution. Over time, the value of data has been realised which transformed the holding of personal health information into a strategic asset which in part is responsible for defining the modern healthcare institution as it is — centralized .
-
-And so challenges under the existing frameworks appear to be trying to push two things together which are not particularly compatible. Health Information Exchange (HIE) has remained slow \\cite{adler2015electronic} as ensuring that both providers and EHR vendors maintain their financial incentives has proven challenging. Centralised healthcare providers have expressed their concern about the loss of patients and associated revenue that could result from sharing data with competitor organizations and generally, uncertainyly about the return on investmentfrom prioritizing HIE ahead of other investements \\cite{grossman2008creating}. This further drove an imbalance of IT purchasing power in favour of large-scale EHR vendors which will not address the issues at hand \\cite{gropper_2020}. 
-
-One of the main stumbling blocks of cross-silo EHRs is interoperability despite open standards such as "Health Level 7 (HL7) C-CDA"\\cite{healthit.gov_2019}. Many vendors will have different EHR versions which render the idea of interoperability too difficult to realise \\cite{ekblaw2016case}. 
-
-A variety of high level panels (i.e.\\ JSON, PCAST) recommended separating access control from personal health record stewardship (i.e.\\ cross-silo networks) to achieve interoperability at scale \\cite{gropper2016powering}. Yet this is not in-keeping with the growth pattern of centralised healthcare providers, who as stakeholders, are required to hold and acquire patient health data as strategic institutional assets \\cite{nosh:new_open_source_health_charting_system_2017}. This places physicians in a difficult position as they are unable to afford health record systems which suit creative small to medium sized practices. This leaves physicians beholden to centralised institutions of healthcare with little autonomy in practice. For example, physicians are unable to refer patients to services not affiliated with the institution (i.e.\\ pharmaceutical medications, imaging and lab services) and this can leave patients without cost-effective options.
-
-In the era of modern data utilisation, this more importantly can stifle clinical practice as physicians seeking to adopt machine learning algorithms into their clinical care pathways are not in the position to directly facilitate expenditure on these integrations. As this blog highlights, neither are cross-silo institutional databases in the position to realise the value of health data in the first place.
+...
