@@ -1,6 +1,6 @@
 ---
 date: 2019-08-08T22:42:09.000+00:00
-title: Accessing Personal Health Information (PHI)
+title: 'Accessing Personal Health Information (PHI) '
 author: Abraham Nash
 hero_image: "/content/images/o.png"
 
